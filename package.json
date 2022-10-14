@@ -1,0 +1,24 @@
+{
+  "name": "esbuild-spreadbug-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "esbuild main.ts --outfile=dist/main.js",
+    "start": "node dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bujiie/esbuild-spreadbug-example.git"
+  },
+  "author": "Brian Ujiie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bujiie/esbuild-spreadbug-example/issues"
+  },
+  "homepage": "https://github.com/bujiie/esbuild-spreadbug-example#readme",
+  "dependencies": {
+    "esbuild": "^0.15.11",
+    "typescript": "^4.8.4"
+  }
+}
